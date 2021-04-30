@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap");
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -10,6 +11,7 @@ h1 {
   text-align: center;
   margin: 0px;
 }
+  
 .container {
   min-height: 80vh;
   display: flex;
@@ -19,7 +21,7 @@ h1 {
 }
 
 .container h1 {
-  font-family: "Goudy Bookletter 1911", serif;
+  font-family: "Antonio", sans-serif;
 }
 .myForm {
   display: flex;
@@ -63,7 +65,7 @@ input,textarea {
   font-size: 17px;
 }
 .btn {
-  width: 109px;
+  width: 80px;
   padding: 5px;
   margin: 7px;
   border: 2px solid black;

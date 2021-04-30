@@ -61,6 +61,9 @@
   font-size: 62px;
   font-weight: bold;
 }
+div{
+  color: cornflowerblue;
+}
 #introSection div.small {
   font-size: 31px;
   padding: 10px;

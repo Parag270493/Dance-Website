@@ -22,7 +22,7 @@ h1 {
 
 .container {
   /* border: 2px solid black; */
-  padding: 170px 60px ;
+  padding: 159px 60px ;
   min-height: 72vh;
   display: flex;
   flex-direction: column;
@@ -36,4 +36,5 @@ h1 {
   margin: -31px 4px;
   font-size: 29px;
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
