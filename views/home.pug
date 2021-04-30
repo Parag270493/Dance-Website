@@ -1,0 +1,48 @@
+extends  base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+     style
+      include ../static/style.css
+
+block content 
+    
+
+    section#introSection 
+        div  Welcome to the Dance World 
+        div.small  Birth Dance Death Repeat 
+    
+    section#missonSection 
+         h2  Our Mission 
+         div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/9.png")
+                div.card-content
+                    p This is the best Dance academy of india.    
+         div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/12.png")
+                div.card-content
+                    p This is the best Dance academy of india.
+         div.card
+            h3 Expert Teaching 
+            div.card-box
+                div.card-img
+                    img(src="/static/img/11.jpg")
+                div.card-content
+                    p This is the best Dance academy of india.
+    section#sponsorsSection 
+         h2  Our Sponsors 
+         div#sponsors
+             img(src="/static/img/8.jpg" alt="sponsor image" Class="spImage")
+             img(src="/static/img/13.jpg" alt="sponsor image" Class="spImage")
+             img(src="/static/img/14.jpg" alt="sponsor image" Class="spImage")
+             img(src="/static/img/15.png" alt="sponsor image" Class="spImage")
+    footer#footer 
+        | Copyright &copy 2021 ParagDanceAcademy.com    

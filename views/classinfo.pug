@@ -1,0 +1,101 @@
+extends  base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleclassinfo.css
+
+block content 
+    div.container  
+        h1 Class Info
+    div.card
+        h2 Kathakali 
+        div.card-content
+            |Date: <label for="Date">
+            select#Time(name="mydate") 
+             <option value="">Select
+             <option value="2nd May">2nd May
+             <option value="4th May">4th May
+             <option value="6th May">6th May
+             <option value="8th May">8th May
+             <option value="10th May">10th May
+            |Time: <label for="Time">
+            select#Time(name="mytime") 
+             <option value="">Select
+             <option value="12:00PM">12:00PM
+             <option value="2:00PM">2:00PM
+             <option value="4:00PM">4:00PM
+             <option value="6:00PM">6:00PM
+             <option value="8:00PM">8:00PM
+            button(class='btn')
+             |  Submit
+            button(class='btn1')
+             |  Reset
+    div.card
+        h2 Salsa
+        div.card-content
+            |Date: <label for="Date">
+            select#Time(name="mydate") 
+             <option value="">Select
+             <option value="2nd May">2nd May
+             <option value="4th May">4th May
+             <option value="6th May">6th May
+             <option value="8th May">8th May
+             <option value="10th May">10th May
+            |Time: <label for="Time">
+            select#Time(name="mytime") 
+             <option value="">Select
+             <option value="12:00PM">12:00PM
+             <option value="2:00PM">2:00PM
+             <option value="4:00PM">4:00PM
+             <option value="6:00PM">6:00PM
+             <option value="8:00PM">8:00PM
+            button(class='btn')
+             |  Submit
+            button(class='btn1')
+             |  Reset
+    div.card
+        h2 Hip Hop 
+        div.card-content
+            |Date: <label for="Date">
+            select#Time(name="mydate") 
+             <option value="">Select
+             <option value="2nd May">2nd May
+             <option value="4th May">4th May
+             <option value="6th May">6th May
+             <option value="8th May">8th May
+             <option value="10th May">10th May
+            |Time: <label for="Time">
+            select#Time(name="mytime") 
+             <option value="">Select
+             <option value="12:00PM">12:00PM
+             <option value="2:00PM">2:00PM
+             <option value="4:00PM">4:00PM
+             <option value="6:00PM">6:00PM
+             <option value="8:00PM">8:00PM
+            button(class='btn')
+             |  Submit
+            button(class='btn1')
+             |  Reset
+    div.card
+        h2 Other Dance Form 
+        div.card-content
+            |Dance Form: <label for="danceform">
+            select#dance(name="mydance") 
+             <option value="">Select 
+             <option value="Bharatnatyam">Bharatnatyam
+             <option value="Contemporary">Contemporary
+             <option value="Folk Dance">Folk Dance
+             <option value="Samba">Samba
+             <option value="Kuchipudi">Kuchipudi
+             <option value="Kathak">Kathak
+             <option value="Belly Dance">Belly Dance
+            button(class='btn')
+             |  Submit
+            button(class='btn1')
+             |  Reset
+    footer#footer 
+        | Copyright &copy 2021 ParagDanceAcademy.com

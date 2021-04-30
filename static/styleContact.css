@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Orelega+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  /* background: url("/static/img/p28.jpg") center /cover no-repeat; */
+}
+h1 {
+  text-align: center;
+  margin: 0px;
+}
+.container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 19px 0px;
+}
+
+.container h1 {
+  font-family: "Goudy Bookletter 1911", serif;
+}
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.myForm:before {
+  content: "";
+  position: absolute;
+  height: 98%;
+  width: 100%;
+  z-index: -1;
+  opacity: 1.5;
+  background: url("/static/img/p28.jpg") no-repeat center center/cover;
+}
+.myInput {
+  width: 530px;
+  padding: 4px;
+  margin: 7px;
+  font-size: 17px;
+  border: 2px solid rgb(20, 19, 19);
+  border-radius: 9px;
+  /* text-align: center; */
+  outline: none;
+  font-family: "Goudy Bookletter 1911", serif;
+  /* text-overflow: ellipsis; */
+
+}
+input,textarea {
+  display: block;
+  padding: 13px;
+  margin: 15px auto;
+  width: 35%;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 8px;
+  /* text-align: center; */
+  font-family: "Goudy Bookletter 1911", serif;
+  font-size: 17px;
+}
+.btn {
+  width: 109px;
+  padding: 5px;
+  margin: 7px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 17px;
+  color: black;
+  background: wheat;
+  cursor: pointer;
+  font-family: "Orelega One", cursive;
+  outline: none;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}

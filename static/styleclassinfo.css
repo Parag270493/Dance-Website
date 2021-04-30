@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  h1{
+      text-align: center;
+  }
+  .card{
+      display: inline-block;
+      margin: 100px 21px;
+  }
+  h2{
+
+  }

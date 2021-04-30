@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap");
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.background img {
+  position: absolute;
+  width: 100%;
+  height: 92%;
+  z-index: -1;
+  opacity: 0.5;
+}
+h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 8px;
+  font-family: "Antonio", sans-serif;
+  font-size: 40px;
+}
+
+.container {
+  /* border: 2px solid black; */
+  padding: 170px 60px ;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 19px 0px;
+}
+
+.container p {
+  position: inherit;
+  padding: 1px 30px;
+  margin: -31px 4px;
+  font-size: 29px;
+  font-family: 'Roboto', sans-serif;
+}

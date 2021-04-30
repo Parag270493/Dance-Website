@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Dance World 
+    block scripts
+    block style 
+      
+  body 
+    nav#navbar
+        ul 
+           div#logo
+              img(src="/static/img/logo2.jpg") 
+              | PDA
+           li #[a(href='/') Home]
+           li #[a(href='/about') About us]
+           li #[a(href='/services') Services]
+           li #[a(href='/classinfo') Class Info] 
+           li #[a(href='/contact') Contact us] 
+
+    block content
+     footer#footer 
+        | Copyright &copy 2021 ParagDanceAcademy.com
+  
